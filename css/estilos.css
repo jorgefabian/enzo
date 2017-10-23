@@ -1,0 +1,85 @@
+body
+{
+	background: #EEEEEE;
+	font-family: Arial;
+	font-size: 16px;
+}
+a
+{
+	color: #22BCE0;
+}
+header
+{
+	background: white;
+	color: white;
+	overflow: hidden;
+	padding: 0.5em;
+	position: relative;
+}
+header figure
+{
+	margin-left: 30%;
+	margin-right: 30%;
+}
+header #logo img
+{
+	width: 300px;
+}
+nav
+{
+	background: #80BCA3;
+	margin: 0;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+nav ul li a
+{
+	color: white;
+	display: block;
+	padding: 0.5em 0;
+	text-decoration: none;
+}
+.slider{
+	position: relative;
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+	left: 15%;
+
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 700%;
+	animation: cambio 20s infinite alternate;
+	animation-timing-function: 
+}
+.slider li{
+	width: 70%;
+	list-style: none;
+}
+.slider img{
+	width: 70%;
+}
+@keyframes cambio{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+
+	25%{margin-left: -100%;}
+	45%{margin-left: -100%;}
+
+	50%{margin-left: -200%;}
+	70%{margin-left: -200%;}
+
+	75%{margin-left: -300%;}
+	100%{margin-left: -300%;}
+}
